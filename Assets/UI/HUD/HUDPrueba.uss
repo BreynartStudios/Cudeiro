@@ -1,0 +1,367 @@
+:root {
+    --amarillo: rgb(255, 208, 24);
+    --negro: rgb(18, 18, 20);
+    --rojo: rgb(232, 64, 58);
+    --gris-punto: rgb(200, 200, 204);
+}
+
+/* ---------- Base ---------- */
+
+.hud-prueba {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hud-prueba .unity-label {
+    padding: 0;
+    margin: 0;
+    -unity-font-style: bold-and-italic;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: var(--negro);
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.85);
+    white-space: nowrap;
+}
+
+.brocha {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.brocha--a {
+    background-image: url("project://database/Assets/UI/HUD/Texturas/brocha_a.png");
+}
+
+.brocha--b {
+    background-image: url("project://database/Assets/UI/HUD/Texturas/brocha_b.png");
+}
+
+.brocha--amarilla {
+    -unity-background-image-tint-color: var(--amarillo);
+}
+
+.brocha--negra {
+    -unity-background-image-tint-color: var(--negro);
+}
+
+/* ---------- Fase (arriba izquierda) ---------- */
+
+.fase {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 290px;
+    rotate: -4deg;
+}
+
+.fase__titulo {
+    height: 96px;
+    justify-content: center;
+}
+
+.fase__titulo .brocha {
+    left: -12px;
+    right: -6px;
+    top: -10px;
+    bottom: -8px;
+}
+
+.fase .fase__titulo-texto {
+    font-size: 54px;
+    -unity-text-outline-width: 3px;
+    text-shadow: 4px 4px 0 var(--negro);
+}
+
+.fase__subtitulo {
+    height: 56px;
+    margin-top: -18px;
+    margin-left: 26px;
+    margin-right: -4px;
+    justify-content: center;
+    rotate: 2deg;
+}
+
+.fase__subtitulo .brocha {
+    left: -10px;
+    right: -10px;
+    top: -6px;
+    bottom: -6px;
+}
+
+.fase .fase__subtitulo-texto {
+    font-size: 26px;
+    text-shadow: 2px 2px 0 var(--negro);
+}
+
+/* ---------- Progreso (arriba centro) ---------- */
+
+.progreso {
+    position: absolute;
+    top: 28px;
+    left: 360px;
+    right: 360px;
+    height: 44px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.progreso__linea {
+    position: absolute;
+    left: 14px;
+    right: 40px;
+    height: 7px;
+    background-color: var(--gris-punto);
+    border-width: 2px;
+    border-color: rgb(80, 80, 86);
+    border-radius: 4px;
+}
+
+.progreso__puntos {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18px;
+}
+
+.progreso__punto {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: var(--gris-punto);
+    border-width: 2px;
+    border-color: rgb(80, 80, 86);
+}
+
+.progreso__punto--superado {
+    background-color: var(--amarillo);
+    border-color: var(--negro);
+}
+
+.progreso__punto--actual {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: var(--rojo);
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+}
+
+.progreso__punto-borde {
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 22px;
+    border-width: 2px;
+    border-color: var(--negro);
+}
+
+.progreso__corona {
+    width: 48px;
+    height: 48px;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/corona.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/* ---------- Cronómetro (arriba derecha) ---------- */
+
+.cronometro {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    width: 280px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    rotate: -3deg;
+}
+
+.cronometro .brocha--amarilla {
+    left: 10px;
+    right: -10px;
+    top: 30px;
+    bottom: -10px;
+}
+
+.cronometro .brocha--negra {
+    left: -8px;
+    right: -4px;
+    top: -6px;
+    bottom: 4px;
+}
+
+.cronometro .cronometro__tiempo {
+    font-size: 60px;
+    color: var(--amarillo);
+    -unity-text-outline-width: 0;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.9);
+}
+
+.cronometro .cronometro__centesimas {
+    font-size: 30px;
+    color: var(--amarillo);
+    -unity-text-outline-width: 0;
+    margin-bottom: 7px;
+}
+
+/* ---------- Joystick (abajo izquierda) ---------- */
+
+.joystick {
+    position: absolute;
+    left: 18px;
+    bottom: 14px;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.joystick--oculto {
+    display: none;
+}
+
+.joystick__fondo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/mancha.png");
+    -unity-background-image-tint-color: rgba(18, 18, 20, 0.92);
+}
+
+.joystick__sprint {
+    position: absolute;
+    left: 58px;
+    top: -34px;
+    width: 92px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    rotate: -6deg;
+    transition-duration: 0.1s;
+}
+
+.joystick__sprint .brocha {
+    left: -10px;
+    right: -10px;
+    top: -4px;
+    bottom: -4px;
+}
+
+.joystick__sprint--pulsado {
+    scale: 0.88 0.88;
+}
+
+.joystick__sprint-icono {
+    width: 52px;
+    height: 52px;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/corredor.png");
+}
+
+.joystick__base {
+    width: 170px;
+    height: 170px;
+    margin-top: 16px;
+    border-radius: 85px;
+    border-width: 5px;
+    border-color: rgb(235, 235, 235);
+    background-color: rgba(0, 0, 0, 0.35);
+    align-items: center;
+    justify-content: center;
+}
+
+.joystick__flecha {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/flecha.png");
+    -unity-background-image-tint-color: var(--amarillo);
+}
+
+.joystick__flecha--arriba {
+    top: -42px;
+}
+
+.joystick__flecha--abajo {
+    bottom: -42px;
+    rotate: 180deg;
+}
+
+.joystick__flecha--izquierda {
+    left: -42px;
+    rotate: -90deg;
+}
+
+.joystick__flecha--derecha {
+    right: -42px;
+    rotate: 90deg;
+}
+
+.joystick__mando {
+    width: 112px;
+    height: 112px;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/mando.png");
+}
+
+/* ---------- Objetivo (abajo derecha) ---------- */
+
+.objetivo {
+    position: absolute;
+    right: 24px;
+    bottom: 64px;
+    width: 330px;
+    height: 84px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 64px;
+    rotate: -4deg;
+}
+
+.objetivo .brocha--amarilla {
+    left: -10px;
+    right: 40px;
+    top: -8px;
+    bottom: 8px;
+}
+
+.objetivo .brocha--negra {
+    left: 0;
+    right: 44px;
+    top: 4px;
+    bottom: -2px;
+}
+
+.objetivo .objetivo__texto {
+    font-size: 21px;
+    text-shadow: 2px 2px 0 var(--negro);
+}
+
+.objetivo .objetivo__destacado {
+    font-size: 28px;
+    color: var(--amarillo);
+    margin-left: 8px;
+}
+
+.objetivo__bandera {
+    position: absolute;
+    right: -18px;
+    top: -30px;
+    width: 104px;
+    height: 104px;
+    background-image: url("project://database/Assets/UI/HUD/Texturas/bandera.png");
+    rotate: 8deg;
+}

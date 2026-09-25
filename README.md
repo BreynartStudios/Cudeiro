@@ -59,6 +59,12 @@ El proyecto está en una **fase temprana**. Por ahora tiene:
 3. Abre `Assets/Core/TestScenes/[BB] Core.unity` y pulsa **Play**.
 4. Para probar varios jugadores en local, usa **Multiplayer Play Mode** (`Window > Multiplayer > Multiplayer Play Mode`).
 
+## Comunidad
+
+El desarrollo del juego se sigue y se comenta en nuestro canal de Telegram:
+
+👉 **[t.me/+R7MH5LoKTJXMdkK0](https://t.me/+R7MH5LoKTJXMdkK0)**
+
 ## Tecnologías
 
 - Unity 6 · URP · Input System · Cinemachine 3

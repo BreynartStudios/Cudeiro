@@ -1,0 +1,61 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="HUDPrueba.uss" />
+    <ui:VisualElement name="hudPrueba" class="hud-prueba" picking-mode="Ignore">
+
+        <ui:VisualElement name="fase" class="fase" picking-mode="Ignore">
+            <ui:VisualElement class="fase__titulo" picking-mode="Ignore">
+                <ui:VisualElement class="brocha brocha--a brocha--amarilla" picking-mode="Ignore" />
+                <ui:Label name="faseLabel" text="FASE 1" class="fase__titulo-texto" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="fase__subtitulo" picking-mode="Ignore">
+                <ui:VisualElement class="brocha brocha--b brocha--negra" picking-mode="Ignore" />
+                <ui:Label name="pruebaLabel" text="EL PANTANO" class="fase__subtitulo-texto" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="progreso" class="progreso" picking-mode="Ignore">
+            <ui:VisualElement class="progreso__linea" picking-mode="Ignore" />
+            <ui:VisualElement name="progresoPuntos" class="progreso__puntos" picking-mode="Ignore">
+                <ui:VisualElement class="progreso__punto progreso__punto--actual" picking-mode="Ignore">
+                    <ui:VisualElement class="progreso__punto-borde" picking-mode="Ignore" />
+                </ui:VisualElement>
+                <ui:VisualElement class="progreso__punto" picking-mode="Ignore" />
+                <ui:VisualElement class="progreso__punto" picking-mode="Ignore" />
+                <ui:VisualElement class="progreso__punto" picking-mode="Ignore" />
+                <ui:VisualElement class="progreso__punto" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="progreso__corona" picking-mode="Ignore" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="cronometro" class="cronometro" picking-mode="Ignore">
+            <ui:VisualElement class="brocha brocha--b brocha--amarilla" picking-mode="Ignore" />
+            <ui:VisualElement class="brocha brocha--a brocha--negra" picking-mode="Ignore" />
+            <ui:Label name="tiempoLabel" text="00:48" class="cronometro__tiempo" picking-mode="Ignore" />
+            <ui:Label name="centesimasLabel" text=".27" class="cronometro__centesimas" picking-mode="Ignore" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="joystick" class="joystick" picking-mode="Ignore">
+            <ui:VisualElement class="joystick__fondo" picking-mode="Ignore" />
+            <ui:VisualElement name="sprintBoton" class="joystick__sprint">
+                <ui:VisualElement class="brocha brocha--b brocha--negra" picking-mode="Ignore" />
+                <ui:VisualElement class="joystick__sprint-icono" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement name="joystickBase" class="joystick__base">
+                <ui:VisualElement class="joystick__flecha joystick__flecha--arriba" picking-mode="Ignore" />
+                <ui:VisualElement class="joystick__flecha joystick__flecha--abajo" picking-mode="Ignore" />
+                <ui:VisualElement class="joystick__flecha joystick__flecha--izquierda" picking-mode="Ignore" />
+                <ui:VisualElement class="joystick__flecha joystick__flecha--derecha" picking-mode="Ignore" />
+                <ui:VisualElement name="joystickMando" class="joystick__mando" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="objetivo" class="objetivo" picking-mode="Ignore">
+            <ui:VisualElement class="brocha brocha--a brocha--amarilla" picking-mode="Ignore" />
+            <ui:VisualElement class="brocha brocha--b brocha--negra" picking-mode="Ignore" />
+            <ui:Label name="objetivoLabel" text="LLEGA A LA" class="objetivo__texto" picking-mode="Ignore" />
+            <ui:Label name="objetivoDestacadoLabel" text="META" class="objetivo__texto objetivo__destacado" picking-mode="Ignore" />
+            <ui:VisualElement class="objetivo__bandera" picking-mode="Ignore" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>
