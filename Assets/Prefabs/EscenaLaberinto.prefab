@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 8581810507414888388}
   - component: {fileID: 7725082466901715023}
   - component: {fileID: 4491777407644124209}
-  - component: {fileID: 4303887786383079435}
-  - component: {fileID: 1529883175292273534}
+  - component: {fileID: 5829385569939703637}
   m_Layer: 0
   m_Name: PuertaCelda_2_15
   m_TagString: Untagged
@@ -116,9 +115,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4491777407644124209
@@ -142,66 +141,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.641221, y: -4.1222053e-15, z: 0}
---- !u!59 &4303887786383079435
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4732986208294740}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 668263288383488235}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 10.114818, y: 1, z: 9.480604}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &1529883175292273534
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4732986208294740}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 9, y: 20, z: 0.9}
-  m_Center: {x: 4.6411963, y: -4.1222053e-15, z: -0.0000019073486}
 --- !u!1 &160011232180261021
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,7 +187,7 @@ GameObject:
   - component: {fileID: 1740084685048859100}
   - component: {fileID: 5765033750976361950}
   - component: {fileID: 5022936198026726687}
-  - component: {fileID: 6347017254385223625}
+  - component: {fileID: 6431886280079138404}
   m_Layer: 0
   m_Name: PuertaCelda_1
   m_TagString: Untagged
@@ -350,9 +289,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5022936198026726687
@@ -376,45 +315,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000030517578}
---- !u!59 &6347017254385223625
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196282793028251180}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.67093, y: 5.11, z: 29.351648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &229558625581002516
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +328,7 @@ GameObject:
   - component: {fileID: 3094133901093119486}
   - component: {fileID: 4983803840029217520}
   - component: {fileID: 5036896288161952491}
-  - component: {fileID: 6874190640518492729}
+  - component: {fileID: 928546395785388272}
   m_Layer: 0
   m_Name: PuertaCelda_3_15
   m_TagString: Untagged
@@ -530,9 +430,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5036896288161952491
@@ -556,45 +456,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &6874190640518492729
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229558625581002516}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.749866, y: 5.11, z: 39.724}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &236883257856253652
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,7 +605,7 @@ GameObject:
   - component: {fileID: 325132670905580170}
   - component: {fileID: 5700042250103479012}
   - component: {fileID: 7993333277749986878}
-  - component: {fileID: 7271172247500973857}
+  - component: {fileID: 1181925776961127759}
   m_Layer: 0
   m_Name: PuertaCelda_3_12
   m_TagString: Untagged
@@ -846,9 +707,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7993333277749986878
@@ -872,45 +733,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: -6.911939e-32}
---- !u!59 &7271172247500973857
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338300256710722533}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.75187, y: 5.11, z: 36.292}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &373456533757291559
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +746,7 @@ GameObject:
   - component: {fileID: 7041920067845003238}
   - component: {fileID: 5774885823947419284}
   - component: {fileID: 4910042035332084210}
-  - component: {fileID: 55318111264489093}
+  - component: {fileID: 2121967031594935423}
   m_Layer: 0
   m_Name: PuertaCelda_2_5
   m_TagString: Untagged
@@ -1026,9 +848,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4910042035332084210
@@ -1052,45 +874,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.6411905, y: -4.1222053e-15, z: 0.000030517578}
---- !u!59 &55318111264489093
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373456533757291559}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.659927, y: 5.11, z: 36.32848}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &396156698855851534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +920,7 @@ GameObject:
   - component: {fileID: 1416675596459060620}
   - component: {fileID: 5838596560338938767}
   - component: {fileID: 8571628124168084802}
-  - component: {fileID: 2904104725775542473}
+  - component: {fileID: 4920486433017769927}
   m_Layer: 0
   m_Name: PuertaCelda_5
   m_TagString: Untagged
@@ -1239,9 +1022,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8571628124168084802
@@ -1265,45 +1048,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.6156936, y: -0.0000009536743, z: 0.015725313}
---- !u!59 &2904104725775542473
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464236422789497169}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.634, y: 5.11, z: 28.296328}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &494223968786982398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,7 +1061,7 @@ GameObject:
   - component: {fileID: 1430431248912634321}
   - component: {fileID: 6011623658477558765}
   - component: {fileID: 1309385705121289233}
-  - component: {fileID: 4392712509314352192}
+  - component: {fileID: 2214890210924811618}
   m_Layer: 0
   m_Name: PuertaCelda_2_6
   m_TagString: Untagged
@@ -1419,9 +1163,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1309385705121289233
@@ -1445,45 +1189,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6411824, y: -0.0000009536743, z: 0.000030517578}
---- !u!59 &4392712509314352192
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494223968786982398}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.661926, y: 5.11, z: 35.18448}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &521229856543158183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,7 +1663,7 @@ GameObject:
   - component: {fileID: 9041772477105906799}
   - component: {fileID: 6346186574305655277}
   - component: {fileID: 8946159463136332053}
-  - component: {fileID: 4692273267953257586}
+  - component: {fileID: 1498885238641262600}
   m_Layer: 0
   m_Name: PuertaCelda_2_17
   m_TagString: Untagged
@@ -2060,9 +1765,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8946159463136332053
@@ -2086,45 +1791,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.64119, y: -0.0000009536743, z: 0}
---- !u!59 &4692273267953257586
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003206521665206580}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.667927, y: 5.11, z: 36.32848}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1138370771061543890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,7 +1922,7 @@ GameObject:
   - component: {fileID: 281740122742978095}
   - component: {fileID: 20192131525716775}
   - component: {fileID: 4502637123828760053}
-  - component: {fileID: 1428668243175810940}
+  - component: {fileID: 8121499081139325867}
   m_Layer: 0
   m_Name: PuertaCelda_3_9
   m_TagString: Untagged
@@ -2358,9 +2024,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4502637123828760053
@@ -2384,45 +2050,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &1428668243175810940
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1210704271296790857}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.75387, y: 5.11, z: 32.86}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1347429217255152342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,7 +2063,7 @@ GameObject:
   - component: {fileID: 2763918611356375512}
   - component: {fileID: 1035428023163704221}
   - component: {fileID: 7693416915231422325}
-  - component: {fileID: 4566579034577610658}
+  - component: {fileID: 4647899331307140168}
   m_Layer: 0
   m_Name: PuertaCelda_5_2
   m_TagString: Untagged
@@ -2538,9 +2165,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7693416915231422325
@@ -2564,45 +2191,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.615701, y: -0.0000009536743, z: 0.015694795}
---- !u!59 &4566579034577610658
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347429217255152342}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.632, y: 5.11, z: 31.728327}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1454838970205980102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,7 +2238,7 @@ GameObject:
   - component: {fileID: 3232080646592372841}
   - component: {fileID: 5366571788359004199}
   - component: {fileID: 5415469867489682115}
-  - component: {fileID: 7662204707913899952}
+  - component: {fileID: 342082146319391728}
   m_Layer: 0
   m_Name: PuertaCelda_2_12
   m_TagString: Untagged
@@ -2752,9 +2340,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5415469867489682115
@@ -2778,45 +2366,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.641175, y: -0.0000009536743, z: 0}
---- !u!59 &7662204707913899952
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532223229560539773}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.665924, y: 5.11, z: 35.18448}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1642269000611380451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2830,7 +2379,7 @@ GameObject:
   - component: {fileID: 1812125510554836276}
   - component: {fileID: 2654153535811307110}
   - component: {fileID: 3442520713238368360}
-  - component: {fileID: 8913131232824456903}
+  - component: {fileID: 2472778124923257529}
   m_Layer: 0
   m_Name: PuertaCelda_3
   m_TagString: Untagged
@@ -2932,9 +2481,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3442520713238368360
@@ -2958,45 +2507,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &8913131232824456903
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642269000611380451}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.749866, y: 5.11, z: 30.571999}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1680162268632704939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,7 +2520,7 @@ GameObject:
   - component: {fileID: 4844061671338596211}
   - component: {fileID: 964180646965481365}
   - component: {fileID: 3322056996475734211}
-  - component: {fileID: 4055389035404575213}
+  - component: {fileID: 5037893777052248802}
   m_Layer: 0
   m_Name: PuertaCelda_1_7
   m_TagString: Untagged
@@ -3112,9 +2622,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3322056996475734211
@@ -3138,45 +2648,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0.000045776367}
---- !u!59 &4055389035404575213
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680162268632704939}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.67093, y: 5.11, z: 33.92765}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1719711291701509203
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,7 +2774,7 @@ GameObject:
   - component: {fileID: 1947794667342100276}
   - component: {fileID: 4097307979057187648}
   - component: {fileID: 2853011984280770137}
-  - component: {fileID: 8828144747816637188}
+  - component: {fileID: 7207267373090988567}
   m_Layer: 0
   m_Name: PuertaCelda_4_3
   m_TagString: Untagged
@@ -3405,9 +2876,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &2853011984280770137
@@ -3431,45 +2902,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.4639645, y: -1.5245685e-23, z: -0.071941674}
---- !u!59 &8828144747816637188
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734720495397693081}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 31.63, y: 5.11, z: 37.348885}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1832522975181663824
 GameObject:
   m_ObjectHideFlags: 0
@@ -3516,7 +2948,7 @@ GameObject:
   - component: {fileID: 2230675912579369158}
   - component: {fileID: 7064538841855708841}
   - component: {fileID: 1409806516122738498}
-  - component: {fileID: 2556323816602490679}
+  - component: {fileID: 6986013396436617365}
   m_Layer: 0
   m_Name: PuertaCelda_1_17
   m_TagString: Untagged
@@ -3618,9 +3050,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1409806516122738498
@@ -3644,45 +3076,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0}
---- !u!59 &2556323816602490679
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835682078728190467}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.674927, y: 5.11, z: 36.21565}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1875587497362839342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,7 +3123,7 @@ GameObject:
   - component: {fileID: 5620216312916497606}
   - component: {fileID: 8868887267706089334}
   - component: {fileID: 4428826498710937904}
-  - component: {fileID: 910877206871636867}
+  - component: {fileID: 7253343751075456519}
   m_Layer: 0
   m_Name: PuertaCelda_3_2
   m_TagString: Untagged
@@ -3832,9 +3225,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4428826498710937904
@@ -3858,45 +3251,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: -0.000030517578}
---- !u!59 &910877206871636867
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882392945634008344}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.747868, y: 5.11, z: 34.003998}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1947757694666860437
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,7 +3424,7 @@ GameObject:
   - component: {fileID: 5230562669951011181}
   - component: {fileID: 5856914743418769437}
   - component: {fileID: 8420225842581281565}
-  - component: {fileID: 5598351585513791240}
+  - component: {fileID: 4160317343603609277}
   m_Layer: 0
   m_Name: PuertaCelda_2_7
   m_TagString: Untagged
@@ -4172,9 +3526,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8420225842581281565
@@ -4198,45 +3552,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6412053, y: -0.0000009536743, z: 0}
---- !u!59 &5598351585513791240
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135532274158908334}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.663925, y: 5.11, z: 34.040478}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2137139208718295931
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,7 +3565,7 @@ GameObject:
   - component: {fileID: 2180073254076414823}
   - component: {fileID: 8442704016405017202}
   - component: {fileID: 5092213212379066782}
-  - component: {fileID: 9077153012753018237}
+  - component: {fileID: 7164934601540270838}
   m_Layer: 0
   m_Name: PuertaCelda_3_16_Batiente
   m_TagString: Untagged
@@ -4352,9 +3667,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5092213212379066782
@@ -4378,45 +3693,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: 0.000030517578}
---- !u!59 &9077153012753018237
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137139208718295931}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 6968488019807509670}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.608689, y: 1, z: 0.39998972}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2147422983328767870
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,7 +3890,7 @@ GameObject:
   - component: {fileID: 4342500508628728198}
   - component: {fileID: 6651221584799583082}
   - component: {fileID: 957258857058946429}
-  - component: {fileID: 7381609410859762073}
+  - component: {fileID: 1674878159296555003}
   m_Layer: 0
   m_Name: PuertaCelda_4_5
   m_TagString: Untagged
@@ -4716,9 +3992,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &957258857058946429
@@ -4742,45 +4018,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.4639034, y: -1.5245685e-23, z: -0.071918786}
---- !u!59 &7381609410859762073
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2219972039470494422}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.634, y: 5.11, z: 39.636887}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2220597763188169955
 GameObject:
   m_ObjectHideFlags: 0
@@ -5014,7 +4251,7 @@ GameObject:
   - component: {fileID: 5050282192051776219}
   - component: {fileID: 455388819497222276}
   - component: {fileID: 258873311449230780}
-  - component: {fileID: 3672231631061487820}
+  - component: {fileID: 5524955514926875667}
   m_Layer: 0
   m_Name: PuertaCelda_4_4
   m_TagString: Untagged
@@ -5116,9 +4353,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &258873311449230780
@@ -5142,45 +4379,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.463934, y: -1.5245685e-23, z: -0.071926415}
---- !u!59 &3672231631061487820
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2342029173731222350}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.632, y: 5.11, z: 38.492886}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2369411810807076505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5194,7 +4392,7 @@ GameObject:
   - component: {fileID: 7968865422976607291}
   - component: {fileID: 7149429986431792202}
   - component: {fileID: 2975959347971283564}
-  - component: {fileID: 2682614374769252294}
+  - component: {fileID: 1850932124083486601}
   m_Layer: 0
   m_Name: PuertaCelda_2_8
   m_TagString: Untagged
@@ -5296,9 +4494,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &2975959347971283564
@@ -5322,45 +4520,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.64119, y: 8.2444105e-15, z: 0}
---- !u!59 &2682614374769252294
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2369411810807076505}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.665924, y: 5.11, z: 32.89648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2386470180299409401
 GameObject:
   m_ObjectHideFlags: 0
@@ -5549,7 +4708,7 @@ GameObject:
   - component: {fileID: 4541057937481506041}
   - component: {fileID: 2009408355749222631}
   - component: {fileID: 4760835206051746954}
-  - component: {fileID: 6295668667409246752}
+  - component: {fileID: 1031069250605572066}
   m_Layer: 0
   m_Name: PuertaCelda_2_10
   m_TagString: Untagged
@@ -5651,9 +4810,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4760835206051746954
@@ -5677,45 +4836,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.641206, y: -4.1222053e-15, z: 0}
---- !u!59 &6295668667409246752
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2441812071586604152}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.661926, y: 5.11, z: 37.472477}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2451427009352971693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,7 +4849,7 @@ GameObject:
   - component: {fileID: 3607632737412249486}
   - component: {fileID: 3862293247991997552}
   - component: {fileID: 6755678376559401729}
-  - component: {fileID: 4757282399889588087}
+  - component: {fileID: 3370070467674518194}
   m_Layer: 0
   m_Name: PuertaCelda_3_6
   m_TagString: Untagged
@@ -5831,9 +4951,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6755678376559401729
@@ -5857,45 +4977,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &4757282399889588087
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2451427009352971693}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.747868, y: 5.11, z: 36.292}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2516095057773834046
 GameObject:
   m_ObjectHideFlags: 0
@@ -6027,7 +5108,7 @@ GameObject:
   - component: {fileID: 8667724330206885025}
   - component: {fileID: 2576672836489387582}
   - component: {fileID: 3940082798559911654}
-  - component: {fileID: 4307862241445267531}
+  - component: {fileID: 4025144007392227790}
   m_Layer: 0
   m_Name: PuertaCelda_6_2
   m_TagString: Untagged
@@ -6129,9 +5210,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3940082798559911654
@@ -6155,45 +5236,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.5, y: 0, z: 0}
---- !u!59 &4307862241445267531
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2646868603735992581}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.761997, y: 5.11, z: 31.664}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2677550822565895082
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,7 +5367,7 @@ GameObject:
   - component: {fileID: 692098316729389800}
   - component: {fileID: 5416208754354031356}
   - component: {fileID: 3420998468184133294}
-  - component: {fileID: 5988918622646037684}
+  - component: {fileID: 1703015323001592789}
   m_Layer: 0
   m_Name: PuertaCelda_5_3
   m_TagString: Untagged
@@ -6427,9 +5469,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3420998468184133294
@@ -6453,45 +5495,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.6156783, y: -0.0000009536743, z: 0.015694795}
---- !u!59 &5988918622646037684
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2691612925679728446}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.634, y: 5.11, z: 30.584328}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2822206481254186332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6505,7 +5508,7 @@ GameObject:
   - component: {fileID: 123739562135185234}
   - component: {fileID: 8453326462085241974}
   - component: {fileID: 1326619856738184403}
-  - component: {fileID: 6053526599268972292}
+  - component: {fileID: 4781683937749019322}
   m_Layer: 0
   m_Name: PuertaCelda_4_6
   m_TagString: Untagged
@@ -6607,9 +5610,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1326619856738184403
@@ -6633,45 +5636,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.4639034, y: -1.5245685e-23, z: -0.071911156}
---- !u!59 &6053526599268972292
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2822206481254186332}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 6968488019807509670}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -5.500008, y: 1, z: 17.329878}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2891622680896554134
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,7 +5649,7 @@ GameObject:
   - component: {fileID: 5440988997815541945}
   - component: {fileID: 308988193753133326}
   - component: {fileID: 5845480711345978446}
-  - component: {fileID: 3807156269428228705}
+  - component: {fileID: 5081302926893720855}
   m_Layer: 0
   m_Name: PuertaCelda_3_5
   m_TagString: Untagged
@@ -6787,9 +5751,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5845480711345978446
@@ -6813,45 +5777,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &3807156269428228705
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2891622680896554134}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 31.745869, y: 5.11, z: 37.436}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3151962271477420547
 GameObject:
   m_ObjectHideFlags: 0
@@ -6898,7 +5823,7 @@ GameObject:
   - component: {fileID: 5274414915564889435}
   - component: {fileID: 3529392515670962748}
   - component: {fileID: 8896442546831183828}
-  - component: {fileID: 1137253177321470698}
+  - component: {fileID: 3387726149727668985}
   m_Layer: 0
   m_Name: PuertaCelda_3_7
   m_TagString: Untagged
@@ -7000,9 +5925,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8896442546831183828
@@ -7026,45 +5951,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: 0.000030517578}
---- !u!59 &1137253177321470698
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3388471627155695091}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.749866, y: 5.11, z: 35.148}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3411895379677179646
 GameObject:
   m_ObjectHideFlags: 0
@@ -7078,7 +5964,7 @@ GameObject:
   - component: {fileID: 3845667832205200982}
   - component: {fileID: 1012118487759176990}
   - component: {fileID: 3753292462888122673}
-  - component: {fileID: 2621160061534101399}
+  - component: {fileID: 4340306057791203999}
   m_Layer: 0
   m_Name: PuertaCelda_2_18_Batiente
   m_TagString: Untagged
@@ -7180,9 +6066,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3753292462888122673
@@ -7206,45 +6092,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.6411905, y: -4.1222053e-15, z: 0}
---- !u!59 &2621160061534101399
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3411895379677179646}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 6968488019807509670}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 10.11481, y: 1, z: 9.480612}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: -90
-    max: 90
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3462745041323222228
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,7 +6223,7 @@ GameObject:
   - component: {fileID: 9135001480918626533}
   - component: {fileID: 5461539949734819075}
   - component: {fileID: 1792266879370094493}
-  - component: {fileID: 1016269426649713413}
+  - component: {fileID: 5722783845046947208}
   m_Layer: 0
   m_Name: PuertaCelda_1_16
   m_TagString: Untagged
@@ -7478,9 +6325,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1792266879370094493
@@ -7504,45 +6351,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0.000045776367}
---- !u!59 &1016269426649713413
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3482214142023342443}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.672928, y: 5.11, z: 37.35965}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3504438959031587992
 GameObject:
   m_ObjectHideFlags: 0
@@ -7741,7 +6549,7 @@ GameObject:
   - component: {fileID: 4772800513982109674}
   - component: {fileID: 4958612060233054907}
   - component: {fileID: 4329067024212767786}
-  - component: {fileID: 7756436063828174636}
+  - component: {fileID: 7629116832050456393}
   m_Layer: 0
   m_Name: PuertaCelda_2_9
   m_TagString: Untagged
@@ -7843,9 +6651,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4329067024212767786
@@ -7869,45 +6677,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.641175, y: -0.0000009536743, z: 0.000061035156}
---- !u!59 &7756436063828174636
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3643481091891181970}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.667927, y: 5.11, z: 31.75248}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3667901016804499930
 GameObject:
   m_ObjectHideFlags: 0
@@ -7921,7 +6690,7 @@ GameObject:
   - component: {fileID: 3904898637630154496}
   - component: {fileID: 8207294548382860897}
   - component: {fileID: 7654322287926658545}
-  - component: {fileID: 5208588291525224274}
+  - component: {fileID: 8336744858710463404}
   m_Layer: 0
   m_Name: PuertaCelda_1_4
   m_TagString: Untagged
@@ -8023,9 +6792,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7654322287926658545
@@ -8049,45 +6818,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000030517578}
---- !u!59 &5208588291525224274
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3667901016804499930}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.672928, y: 5.11, z: 30.49565}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3841253982733022801
 GameObject:
   m_ObjectHideFlags: 0
@@ -8135,7 +6865,7 @@ GameObject:
   - component: {fileID: 5319354956099901157}
   - component: {fileID: 3528564974619693195}
   - component: {fileID: 8013161968383631399}
-  - component: {fileID: 4795450075924172669}
+  - component: {fileID: 8800892419485262850}
   m_Layer: 0
   m_Name: PuertaCelda_1_5
   m_TagString: Untagged
@@ -8237,9 +6967,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8013161968383631399
@@ -8263,45 +6993,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.748925, y: 0, z: 0.0000076293945}
---- !u!59 &4795450075924172669
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4096584486082665369}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.666927, y: 5.11, z: 36.21565}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4116526031211509801
 GameObject:
   m_ObjectHideFlags: 0
@@ -8348,7 +7039,7 @@ GameObject:
   - component: {fileID: 1127440610202423353}
   - component: {fileID: 3370641539486983516}
   - component: {fileID: 1046847489375541519}
-  - component: {fileID: 6559131955729473338}
+  - component: {fileID: 6870897287678991548}
   m_Layer: 0
   m_Name: PuertaCelda_3_18
   m_TagString: Untagged
@@ -8450,9 +7141,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1046847489375541519
@@ -8476,45 +7167,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: -6.911939e-32}
---- !u!59 &6559131955729473338
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4161947752384696854}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 6968488019807509670}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.6086893, y: 1, z: 18.000006}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4171636416284646197
 GameObject:
   m_ObjectHideFlags: 0
@@ -8646,7 +7298,7 @@ GameObject:
   - component: {fileID: 1811882289609474324}
   - component: {fileID: 7121349255990790716}
   - component: {fileID: 5011550153865709012}
-  - component: {fileID: 4991456321714034346}
+  - component: {fileID: 5964742645413946825}
   m_Layer: 0
   m_Name: PuertaCelda_1_6
   m_TagString: Untagged
@@ -8748,9 +7400,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5011550153865709012
@@ -8774,45 +7426,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0}
---- !u!59 &4991456321714034346
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4240374940957712441}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.66893, y: 5.11, z: 35.071648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4422825166201646573
 GameObject:
   m_ObjectHideFlags: 0
@@ -8860,8 +7473,8 @@ GameObject:
   - component: {fileID: 7935582338191208839}
   - component: {fileID: 7626847449158487882}
   - component: {fileID: 5455839757268112802}
-  - component: {fileID: 8255183151636859281}
   - component: {fileID: 6815345578958086276}
+  - component: {fileID: 5570389130493368934}
   m_Layer: 0
   m_Name: PuertaCelda_1_18
   m_TagString: Untagged
@@ -8963,50 +7576,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!59 &8255183151636859281
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4552692788995723693}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 6968488019807509670}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 10.168686, y: 1, z: 8.61268}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!65 &6815345578958086276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9041,7 +7615,7 @@ GameObject:
   - component: {fileID: 6454559965174887197}
   - component: {fileID: 788508107038704835}
   - component: {fileID: 6232271089754920000}
-  - component: {fileID: 4650482754906073443}
+  - component: {fileID: 7745514988399096425}
   m_Layer: 0
   m_Name: PuertaCelda_6_6
   m_TagString: Untagged
@@ -9143,9 +7717,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6232271089754920000
@@ -9169,45 +7743,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.5, y: 0, z: 0}
---- !u!59 &4650482754906073443
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650628547540835701}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.769997, y: 5.11, z: 31.664}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4678635269250362104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9339,7 +7874,7 @@ GameObject:
   - component: {fileID: 4468961004575952300}
   - component: {fileID: 613574122762162836}
   - component: {fileID: 8575945730156440981}
-  - component: {fileID: 6757200504750770128}
+  - component: {fileID: 7502580433924893586}
   m_Layer: 0
   m_Name: PuertaCelda_3_8
   m_TagString: Untagged
@@ -9441,9 +7976,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8575945730156440981
@@ -9467,45 +8002,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: -0.000030517578}
---- !u!59 &6757200504750770128
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4692886604073193074}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.75187, y: 5.11, z: 34.003998}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4926331534660269163
 GameObject:
   m_ObjectHideFlags: 0
@@ -9519,7 +8015,7 @@ GameObject:
   - component: {fileID: 2364723102667867852}
   - component: {fileID: 3135374174702422494}
   - component: {fileID: 1770997541419787993}
-  - component: {fileID: 5326374251913341299}
+  - component: {fileID: 4717654041767067878}
   m_Layer: 0
   m_Name: PuertaCelda_3_11
   m_TagString: Untagged
@@ -9621,9 +8117,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1770997541419787993
@@ -9647,45 +8143,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &5326374251913341299
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4926331534660269163}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.749866, y: 5.11, z: 37.435997}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4963284786321064507
 GameObject:
   m_ObjectHideFlags: 0
@@ -9699,7 +8156,7 @@ GameObject:
   - component: {fileID: 3932374567336184886}
   - component: {fileID: 5826871436933595725}
   - component: {fileID: 302422186285919468}
-  - component: {fileID: 8071912658134965228}
+  - component: {fileID: 1081139430187255510}
   m_Layer: 0
   m_Name: PuertaCelda_1_10
   m_TagString: Untagged
@@ -9801,9 +8258,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &302422186285919468
@@ -9827,45 +8284,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.7489557, y: 0, z: 0.000015258789}
---- !u!59 &8071912658134965228
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4963284786321064507}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.66893, y: 5.11, z: 37.35965}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5024500720953797656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10371,7 +8789,7 @@ GameObject:
   - component: {fileID: 4232216680455324891}
   - component: {fileID: 2904076950341333555}
   - component: {fileID: 8499484691994381618}
-  - component: {fileID: 5974328644559096699}
+  - component: {fileID: 4655417221501012073}
   m_Layer: 0
   m_Name: PuertaCelda_2_14
   m_TagString: Untagged
@@ -10473,9 +8891,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8499484691994381618
@@ -10499,45 +8917,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.64119, y: 8.2444105e-15, z: 0.000061035156}
---- !u!59 &5974328644559096699
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5443949096434975154}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 43.669926, y: 5.11, z: 32.89648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5450132558664457137
 GameObject:
   m_ObjectHideFlags: 0
@@ -10551,7 +8930,7 @@ GameObject:
   - component: {fileID: 3517943622978532757}
   - component: {fileID: 4460287889862812031}
   - component: {fileID: 7364594860354194831}
-  - component: {fileID: 1909307411860231888}
+  - component: {fileID: 1937289513382234117}
   m_Layer: 0
   m_Name: PuertaCelda_3_4
   m_TagString: Untagged
@@ -10653,9 +9032,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7364594860354194831
@@ -10679,45 +9058,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: 0.000030517578}
---- !u!59 &1909307411860231888
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5450132558664457137}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.75187, y: 5.11, z: 31.716}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5471488035734839140
 GameObject:
   m_ObjectHideFlags: 0
@@ -10731,7 +9071,7 @@ GameObject:
   - component: {fileID: 7713103521398503251}
   - component: {fileID: 1149723897006634382}
   - component: {fileID: 5656254666155574293}
-  - component: {fileID: 4438666626396973631}
+  - component: {fileID: 3331756606430919181}
   m_Layer: 0
   m_Name: PuertaCelda_1_8
   m_TagString: Untagged
@@ -10833,9 +9173,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5656254666155574293
@@ -10859,45 +9199,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0.000045776367}
---- !u!59 &4438666626396973631
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5471488035734839140}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.672928, y: 5.11, z: 32.78365}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5479326398391664374
 GameObject:
   m_ObjectHideFlags: 0
@@ -10945,7 +9246,7 @@ GameObject:
   - component: {fileID: 8945414163073292587}
   - component: {fileID: 6095745024873810620}
   - component: {fileID: 8032372646656530072}
-  - component: {fileID: 8392241449702080442}
+  - component: {fileID: 4943733119124683485}
   m_Layer: 0
   m_Name: PuertaCelda_2_11
   m_TagString: Untagged
@@ -11047,9 +9348,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8032372646656530072
@@ -11073,45 +9374,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6411977, y: -0.0000009536743, z: 0.000030517578}
---- !u!59 &8392241449702080442
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5524276444312090920}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.663925, y: 5.11, z: 36.32848}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5590341159313180951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11158,7 +9420,7 @@ GameObject:
   - component: {fileID: 2773185745414274466}
   - component: {fileID: 6650906690865956379}
   - component: {fileID: 8340918204124078621}
-  - component: {fileID: 1959670260068785563}
+  - component: {fileID: 324374268426825352}
   m_Layer: 0
   m_Name: PuertaCelda_1_3
   m_TagString: Untagged
@@ -11260,9 +9522,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8340918204124078621
@@ -11286,45 +9548,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000030517578}
---- !u!59 &1959670260068785563
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5631079022500339229}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.67093, y: 5.11, z: 31.639648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5753757411993293041
 GameObject:
   m_ObjectHideFlags: 0
@@ -11657,7 +9880,7 @@ GameObject:
   - component: {fileID: 8382069322366052681}
   - component: {fileID: 377876550978252166}
   - component: {fileID: 8791271571915041090}
-  - component: {fileID: 7624908328517788440}
+  - component: {fileID: 1125296610330280812}
   m_Layer: 0
   m_Name: PuertaCelda_4_2
   m_TagString: Untagged
@@ -11759,9 +9982,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8791271571915041090
@@ -11785,45 +10008,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.4639335, y: 3.9647427e-15, z: -0.07191115}
---- !u!59 &7624908328517788440
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5962042116675919857}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.632, y: 5.11, z: 33.916885}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6083965931365830419
 GameObject:
   m_ObjectHideFlags: 0
@@ -11870,7 +10054,7 @@ GameObject:
   - component: {fileID: 3968081235727055976}
   - component: {fileID: 6450218664656876589}
   - component: {fileID: 6556286317602023584}
-  - component: {fileID: 654640982512950098}
+  - component: {fileID: 7154640137869227037}
   m_Layer: 0
   m_Name: PuertaCelda_3_13
   m_TagString: Untagged
@@ -11972,9 +10156,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6556286317602023584
@@ -11998,45 +10182,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: 0.000030517578}
---- !u!59 &654640982512950098
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6109944964728383094}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.75387, y: 5.11, z: 35.148}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6266183455915250348
 GameObject:
   m_ObjectHideFlags: 0
@@ -12050,7 +10195,7 @@ GameObject:
   - component: {fileID: 7875085528561901330}
   - component: {fileID: 6396187692225282116}
   - component: {fileID: 7917055750014562852}
-  - component: {fileID: 6343318413352916825}
+  - component: {fileID: 1675972450027230831}
   m_Layer: 0
   m_Name: PuertaCelda_1_15
   m_TagString: Untagged
@@ -12152,9 +10297,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7917055750014562852
@@ -12178,45 +10323,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.7489862, y: 0, z: 0.000030517578}
---- !u!59 &6343318413352916825
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6266183455915250348}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.67093, y: 5.11, z: 38.503647}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6299807888541595700
 GameObject:
   m_ObjectHideFlags: 0
@@ -12230,7 +10336,7 @@ GameObject:
   - component: {fileID: 5836800406289264104}
   - component: {fileID: 2184528377159945634}
   - component: {fileID: 8100835288451273806}
-  - component: {fileID: 5680984513622106421}
+  - component: {fileID: 6578379022467131169}
   m_Layer: 0
   m_Name: PuertaCelda_2_4
   m_TagString: Untagged
@@ -12332,9 +10438,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &8100835288451273806
@@ -12358,45 +10464,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6411977, y: -0.0000009536743, z: 0.000030517578}
---- !u!59 &5680984513622106421
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6299807888541595700}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.665924, y: 5.11, z: 30.608479}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6358184254640832672
 GameObject:
   m_ObjectHideFlags: 0
@@ -12523,7 +10590,7 @@ GameObject:
   - component: {fileID: 3099960095133463111}
   - component: {fileID: 8538764628318298812}
   - component: {fileID: 7654718052604186697}
-  - component: {fileID: 2702276974935686233}
+  - component: {fileID: 2454848441202215783}
   m_Layer: 0
   m_Name: PuertaCelda_6
   m_TagString: Untagged
@@ -12625,9 +10692,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7654718052604186697
@@ -12651,45 +10718,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.5, y: 0, z: 0}
---- !u!59 &2702276974935686233
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6383498132125173927}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.764, y: 5.11, z: 28.232}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6412839988504547059
 GameObject:
   m_ObjectHideFlags: 0
@@ -12703,7 +10731,7 @@ GameObject:
   - component: {fileID: 628362855547381131}
   - component: {fileID: 6245626431614092883}
   - component: {fileID: 6048470655453123595}
-  - component: {fileID: 7301565782421981443}
+  - component: {fileID: 6760282097766806036}
   m_Layer: 0
   m_Name: PuertaCelda_2_16
   m_TagString: Untagged
@@ -12805,9 +10833,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6048470655453123595
@@ -12831,45 +10859,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.64119, y: -0.0000009536743, z: 0.000061035156}
---- !u!59 &7301565782421981443
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6412839988504547059}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.665924, y: 5.11, z: 37.472477}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6574711333032651711
 GameObject:
   m_ObjectHideFlags: 0
@@ -13123,7 +11112,7 @@ GameObject:
   - component: {fileID: 2278767166638039610}
   - component: {fileID: 8608419174893740916}
   - component: {fileID: 3798959898272837689}
-  - component: {fileID: 1928955983907225424}
+  - component: {fileID: 544387787780003186}
   m_Layer: 0
   m_Name: PuertaCelda_3_10
   m_TagString: Untagged
@@ -13225,9 +11214,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3798959898272837689
@@ -13251,45 +11240,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: 0.000030517578}
---- !u!59 &1928955983907225424
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6751987109364807864}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.747868, y: 5.11, z: 38.579998}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6819876734199316543
 GameObject:
   m_ObjectHideFlags: 0
@@ -13435,7 +11385,7 @@ GameObject:
   - component: {fileID: 3499869802988147570}
   - component: {fileID: 744464677797622642}
   - component: {fileID: 4290086974456907103}
-  - component: {fileID: 3784670060437161183}
+  - component: {fileID: 5864567681596672818}
   m_Layer: 0
   m_Name: PuertaCelda_3_14
   m_TagString: Untagged
@@ -13537,9 +11487,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4290086974456907103
@@ -13563,45 +11513,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.608697, y: 0, z: -0.000030517578}
---- !u!59 &3784670060437161183
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7106873281021175139}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.755867, y: 5.11, z: 34.003998}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7172016500057383082
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,7 +11830,7 @@ GameObject:
   - component: {fileID: 8810300256098606919}
   - component: {fileID: 2393524632803595026}
   - component: {fileID: 157914437930111294}
-  - component: {fileID: 2602992281183389538}
+  - component: {fileID: 1066067324129516795}
   m_Layer: 0
   m_Name: PuertaCelda_1_14
   m_TagString: Untagged
@@ -14021,9 +11932,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &157914437930111294
@@ -14047,45 +11958,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000045776367}
---- !u!59 &2602992281183389538
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7298778275642512034}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 43.67693, y: 5.11, z: 32.78365}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7377761279029498813
 GameObject:
   m_ObjectHideFlags: 0
@@ -14099,7 +11971,7 @@ GameObject:
   - component: {fileID: 5543953149134028319}
   - component: {fileID: 8011724404513120474}
   - component: {fileID: 3263236990446825776}
-  - component: {fileID: 8368481466433764384}
+  - component: {fileID: 1389103113058209862}
   m_Layer: 0
   m_Name: PuertaCelda_6_3
   m_TagString: Untagged
@@ -14201,9 +12073,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3263236990446825776
@@ -14227,45 +12099,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.4999695, y: 0, z: 0}
---- !u!59 &8368481466433764384
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7377761279029498813}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.766, y: 5.11, z: 29.376}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7485119848529648626
 GameObject:
   m_ObjectHideFlags: 0
@@ -14279,7 +12112,7 @@ GameObject:
   - component: {fileID: 810441865572791817}
   - component: {fileID: 8795955964709557455}
   - component: {fileID: 2420466793682330108}
-  - component: {fileID: 8281338397034299483}
+  - component: {fileID: 2119735621949146685}
   m_Layer: 0
   m_Name: PuertaCelda_2_13
   m_TagString: Untagged
@@ -14381,9 +12214,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &2420466793682330108
@@ -14407,45 +12240,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6411977, y: -0.0000009536743, z: 0.000061035156}
---- !u!59 &8281338397034299483
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7485119848529648626}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.667927, y: 5.11, z: 34.040478}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7542824902630061672
 GameObject:
   m_ObjectHideFlags: 0
@@ -14459,7 +12253,7 @@ GameObject:
   - component: {fileID: 8257228787558715298}
   - component: {fileID: 5953921549416442152}
   - component: {fileID: 6040904299214959539}
-  - component: {fileID: 7638158257328164854}
+  - component: {fileID: 2447606541743630523}
   m_Layer: 0
   m_Name: PuertaCelda_3_17
   m_TagString: Untagged
@@ -14561,9 +12355,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6040904299214959539
@@ -14587,45 +12381,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &7638158257328164854
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7542824902630061672}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.75387, y: 5.11, z: 37.436}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7545168931733888117
 GameObject:
   m_ObjectHideFlags: 0
@@ -14920,7 +12675,7 @@ GameObject:
   - component: {fileID: 4931392761453446659}
   - component: {fileID: 1263386727773791679}
   - component: {fileID: 4084752864418468254}
-  - component: {fileID: 4947816558334337606}
+  - component: {fileID: 2478846074777454748}
   m_Layer: 0
   m_Name: PuertaCelda_1_9
   m_TagString: Untagged
@@ -15022,9 +12777,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4084752864418468254
@@ -15048,45 +12803,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0}
---- !u!59 &4947816558334337606
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7928506443043087324}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.674927, y: 5.11, z: 31.639648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7962421926319486164
 GameObject:
   m_ObjectHideFlags: 0
@@ -15136,7 +12852,7 @@ GameObject:
   - component: {fileID: 269301862273863490}
   - component: {fileID: 5246150357952932859}
   - component: {fileID: 7624359751921319400}
-  - component: {fileID: 5041711668361684026}
+  - component: {fileID: 7824704444603521613}
   m_Layer: 0
   m_Name: PuertaCelda_1_11
   m_TagString: Untagged
@@ -15238,9 +12954,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &7624359751921319400
@@ -15264,45 +12980,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.748986, y: 0, z: 0.000030517578}
---- !u!59 &5041711668361684026
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7999672752280750877}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.67093, y: 5.11, z: 36.21565}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8022504191883256758
 GameObject:
   m_ObjectHideFlags: 0
@@ -15316,7 +12993,7 @@ GameObject:
   - component: {fileID: 8370804895477961649}
   - component: {fileID: 5193403159862366294}
   - component: {fileID: 6516403754262099799}
-  - component: {fileID: 3817611203112663424}
+  - component: {fileID: 539687509883648676}
   m_Layer: 0
   m_Name: PuertaCelda_5_5
   m_TagString: Untagged
@@ -15418,9 +13095,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6516403754262099799
@@ -15444,45 +13121,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.615686, y: 6.9834425e-18, z: 0.015694795}
---- !u!59 &3817611203112663424
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8022504191883256758}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 33.632, y: 5.11, z: 34.016327}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8136063250294498951
 GameObject:
   m_ObjectHideFlags: 0
@@ -15563,7 +13201,7 @@ GameObject:
   - component: {fileID: 196004654677806952}
   - component: {fileID: 7945572193880960203}
   - component: {fileID: 6471478068541048026}
-  - component: {fileID: 6568758708944133156}
+  - component: {fileID: 930853925871552781}
   m_Layer: 0
   m_Name: PuertaCelda_2
   m_TagString: Untagged
@@ -15665,9 +13303,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6471478068541048026
@@ -15691,45 +13329,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6412053, y: -0.0000009536743, z: 0.000030517578}
---- !u!59 &6568758708944133156
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8349148305188185140}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.663925, y: 5.11, z: 29.46448}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8380278808235526598
 GameObject:
   m_ObjectHideFlags: 0
@@ -15743,7 +13342,7 @@ GameObject:
   - component: {fileID: 1795017698445282061}
   - component: {fileID: 3156785959934822714}
   - component: {fileID: 4331084089717336101}
-  - component: {fileID: 85521909370363519}
+  - component: {fileID: 5659963172610134962}
   m_Layer: 0
   m_Name: PuertaCelda_6_4
   m_TagString: Untagged
@@ -15845,9 +13444,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4331084089717336101
@@ -15871,45 +13470,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.5, y: 0, z: -0.000030517578}
---- !u!59 &85521909370363519
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8380278808235526598}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 31.759998, y: 5.11, z: 35.096}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8385507673163197712
 GameObject:
   m_ObjectHideFlags: 0
@@ -15923,7 +13483,7 @@ GameObject:
   - component: {fileID: 3011920691101100154}
   - component: {fileID: 2296855183798854524}
   - component: {fileID: 1779326453422996911}
-  - component: {fileID: 8415043692906836929}
+  - component: {fileID: 4554391179893344817}
   m_Layer: 0
   m_Name: PuertaCelda_2_3
   m_TagString: Untagged
@@ -16025,9 +13585,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1779326453422996911
@@ -16051,45 +13611,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.64119, y: 8.2444105e-15, z: 0.000030517578}
---- !u!59 &8415043692906836929
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385507673163197712}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 37.663925, y: 5.11, z: 31.75248}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8446155667038760228
 GameObject:
   m_ObjectHideFlags: 0
@@ -16103,7 +13624,7 @@ GameObject:
   - component: {fileID: 8887210841227604598}
   - component: {fileID: 7154391764069071163}
   - component: {fileID: 3993301893805594355}
-  - component: {fileID: 1351267391361827082}
+  - component: {fileID: 1085700897408057264}
   m_Layer: 0
   m_Name: PuertaCelda_1_12
   m_TagString: Untagged
@@ -16205,9 +13726,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3993301893805594355
@@ -16231,45 +13752,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000030517578}
---- !u!59 &1351267391361827082
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8446155667038760228}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.672928, y: 5.11, z: 35.071648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8465075161715642325
 GameObject:
   m_ObjectHideFlags: 0
@@ -16283,7 +13765,7 @@ GameObject:
   - component: {fileID: 7351215456418675895}
   - component: {fileID: 524785332755480647}
   - component: {fileID: 1036130079278387246}
-  - component: {fileID: 16855934160609754}
+  - component: {fileID: 8223533266103820660}
   m_Layer: 0
   m_Name: PuertaCelda_4
   m_TagString: Untagged
@@ -16385,9 +13867,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &1036130079278387246
@@ -16411,45 +13893,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.4639335, y: 3.9647427e-15, z: -0.07192641}
---- !u!59 &16855934160609754
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8465075161715642325}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.634, y: 5.11, z: 30.484886}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8558816414703000476
 GameObject:
   m_ObjectHideFlags: 0
@@ -16463,7 +13906,7 @@ GameObject:
   - component: {fileID: 4169216360789932383}
   - component: {fileID: 3724393805968599407}
   - component: {fileID: 5307631638075186481}
-  - component: {fileID: 6654719161397043748}
+  - component: {fileID: 6055835241090053197}
   m_Layer: 0
   m_Name: PuertaCelda_3_3
   m_TagString: Untagged
@@ -16565,9 +14008,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &5307631638075186481
@@ -16591,45 +14034,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.6086664, y: 0, z: -6.911939e-32}
---- !u!59 &6654719161397043748
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8558816414703000476}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.749866, y: 5.11, z: 32.86}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8595585613996788642
 GameObject:
   m_ObjectHideFlags: 0
@@ -16643,7 +14047,7 @@ GameObject:
   - component: {fileID: 1454105801270996378}
   - component: {fileID: 6085896558002792243}
   - component: {fileID: 3125869137188999904}
-  - component: {fileID: 5737065092769676913}
+  - component: {fileID: 2129840247385071397}
   m_Layer: 0
   m_Name: PuertaCelda_2_2
   m_TagString: Untagged
@@ -16745,9 +14149,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3125869137188999904
@@ -16771,45 +14175,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: 4.6411977, y: 8.2444105e-15, z: 0}
---- !u!59 &5737065092769676913
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8595585613996788642}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.661926, y: 5.11, z: 32.89648}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8712268584366403924
 GameObject:
   m_ObjectHideFlags: 0
@@ -16823,7 +14188,7 @@ GameObject:
   - component: {fileID: 7411104803191304418}
   - component: {fileID: 5911384120138527127}
   - component: {fileID: 4146300739664467710}
-  - component: {fileID: 7356446096284597411}
+  - component: {fileID: 2515451495528041977}
   m_Layer: 0
   m_Name: PuertaCelda_1_2
   m_TagString: Untagged
@@ -16925,9 +14290,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &4146300739664467710
@@ -16951,45 +14316,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489552, y: 0, z: 0.000015258789}
---- !u!59 &7356446096284597411
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8712268584366403924}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 35.66893, y: 5.11, z: 32.78365}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8818795359016459787
 GameObject:
   m_ObjectHideFlags: 0
@@ -17003,7 +14329,7 @@ GameObject:
   - component: {fileID: 1853688089011168319}
   - component: {fileID: 8106395860223810582}
   - component: {fileID: 919132544643265622}
-  - component: {fileID: 8441056601392671775}
+  - component: {fileID: 6084580524278084116}
   m_Layer: 0
   m_Name: PuertaCelda_6_5
   m_TagString: Untagged
@@ -17105,9 +14431,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &919132544643265622
@@ -17131,45 +14457,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: 4.4999695, y: 0, z: 0}
---- !u!59 &8441056601392671775
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8818795359016459787}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 39.767998, y: 5.11, z: 30.52}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8975847590966735183
 GameObject:
   m_ObjectHideFlags: 0
@@ -17252,7 +14539,7 @@ GameObject:
   - component: {fileID: 564551031271982070}
   - component: {fileID: 4668861853657737881}
   - component: {fileID: 3376159090841858896}
-  - component: {fileID: 3138911930100129999}
+  - component: {fileID: 5947249515491528437}
   m_Layer: 0
   m_Name: PuertaCelda_5_4
   m_TagString: Untagged
@@ -17354,9 +14641,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3376159090841858896
@@ -17380,45 +14667,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9, y: 20, z: 0.9}
   m_Center: {x: -4.615694, y: 0, z: 0.01566428}
---- !u!59 &3138911930100129999
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9160898925390746282}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 31.63, y: 5.11, z: 35.160328}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &9217446906347227988
 GameObject:
   m_ObjectHideFlags: 0
@@ -17432,7 +14680,7 @@ GameObject:
   - component: {fileID: 547017994789137379}
   - component: {fileID: 8307576501497675885}
   - component: {fileID: 3504544621100460295}
-  - component: {fileID: 8673596574602972399}
+  - component: {fileID: 1156477571929750587}
   m_Layer: 0
   m_Name: PuertaCelda_1_13
   m_TagString: Untagged
@@ -17534,9 +14782,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3504544621100460295
@@ -17560,42 +14808,1565 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.999999, y: 20, z: 0.8999999}
   m_Center: {x: -4.7489247, y: 0, z: 0.000015258789}
---- !u!59 &8673596574602972399
-HingeJoint:
+--- !u!114 &5829385569939703637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732986208294740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6431886280079138404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196282793028251180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &928546395785388272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229558625581002516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1181925776961127759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338300256710722533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2121967031594935423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373456533757291559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4920486433017769927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464236422789497169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2214890210924811618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494223968786982398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1498885238641262600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003206521665206580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &8121499081139325867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210704271296790857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4647899331307140168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347429217255152342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &342082146319391728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532223229560539773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2472778124923257529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642269000611380451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5037893777052248802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680162268632704939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7207267373090988567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734720495397693081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6986013396436617365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835682078728190467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7253343751075456519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882392945634008344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4160317343603609277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135532274158908334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7164934601540270838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137139208718295931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1674878159296555003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2219972039470494422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5524955514926875667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2342029173731222350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1850932124083486601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369411810807076505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1031069250605572066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441812071586604152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &3370070467674518194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451427009352971693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4025144007392227790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2646868603735992581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1703015323001592789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691612925679728446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4781683937749019322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822206481254186332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5081302926893720855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2891622680896554134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &3387726149727668985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388471627155695091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4340306057791203999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3411895379677179646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5722783845046947208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3482214142023342443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7629116832050456393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643481091891181970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &8336744858710463404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667901016804499930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &8800892419485262850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096584486082665369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6870897287678991548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161947752384696854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5964742645413946825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240374940957712441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5570389130493368934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4552692788995723693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7745514988399096425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650628547540835701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7502580433924893586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692886604073193074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4717654041767067878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4926331534660269163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1081139430187255510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4963284786321064507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4655417221501012073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5443949096434975154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1937289513382234117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5450132558664457137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &3331756606430919181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471488035734839140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4943733119124683485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5524276444312090920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &324374268426825352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5631079022500339229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1125296610330280812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962042116675919857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7154640137869227037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6109944964728383094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1675972450027230831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266183455915250348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6578379022467131169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299807888541595700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2454848441202215783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6383498132125173927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6760282097766806036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412839988504547059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &544387787780003186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6751987109364807864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5864567681596672818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7106873281021175139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1066067324129516795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298778275642512034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1389103113058209862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377761279029498813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2119735621949146685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7485119848529648626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2447606541743630523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542824902630061672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2478846074777454748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928506443043087324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7824704444603521613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999672752280750877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &539687509883648676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022504191883256758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &930853925871552781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349148305188185140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5659963172610134962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8380278808235526598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &4554391179893344817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385507673163197712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1085700897408057264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446155667038760228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &8223533266103820660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465075161715642325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6055835241090053197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8558816414703000476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2129840247385071397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595585613996788642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2515451495528041977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712268584366403924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6084580524278084116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818795359016459787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5947249515491528437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160898925390746282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1156477571929750587
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9217446906347227988}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 41.674927, y: 5.11, z: 33.92765}
-  m_UseSpring: 1
-  m_Spring:
-    spring: 100
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e0cb821bfa4497a6b495b690ce2f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuertaBatiente
+  anguloMaximo: 100
+  frecuenciaApertura: 2.5
+  amortiguacionApertura: 0.8
+  frecuenciaCierre: 0.9
+  amortiguacionCierre: 0.14
+  rebote: 0.3
+  distanciaDeteccion: 0.1
+  capasDetectables:
+    serializedVersion: 2
+    m_Bits: 4294967295
